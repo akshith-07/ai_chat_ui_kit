@@ -1,0 +1,36 @@
+name: ai_chat_ui_kit
+description: Enterprise-grade Flutter package providing customizable chat interface components optimized for AI chatbot applications with streaming support, voice input, markdown rendering, and multi-modal capabilities.
+version: 0.1.0
+homepage: https://github.com/akshith-07/ai_chat_ui_kit
+repository: https://github.com/akshith-07/ai_chat_ui_kit
+issue_tracker: https://github.com/akshith-07/ai_chat_ui_kit/issues
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+  flutter: ">=3.10.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_markdown: ^0.7.0
+  flutter_highlighter: ^0.1.1
+  speech_to_text: ^7.0.0
+  permission_handler: ^11.0.0
+  cached_network_image: ^3.3.0
+  intl: ^0.19.0
+  url_launcher: ^6.2.0
+  shared_preferences: ^2.2.0
+  fl_chart: ^0.68.0
+  equatable: ^2.0.5
+  flutter_math_fork: ^0.7.1
+  collection: ^1.18.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  mockito: ^5.4.0
+  build_runner: ^2.4.0
+
+flutter:
+  uses-material-design: true
