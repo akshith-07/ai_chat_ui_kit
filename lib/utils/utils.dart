@@ -4,5 +4,6 @@
 library utils;
 
 export 'debouncer.dart';
+export 'export_service.dart';
 export 'text_utils.dart';
 export 'time_formatter.dart';
